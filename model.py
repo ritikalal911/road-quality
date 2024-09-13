@@ -11,7 +11,7 @@ def load_model():
 model = load_model()
 
 # Streamlit app
-st.title('Road Crack Detection with YOLOv8')
+st.title('Potholes and Cracks Detection in Road')
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
