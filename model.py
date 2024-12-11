@@ -78,6 +78,6 @@ if uploaded_file is not None:
         # Plot the image with all filtered bounding boxes
         results[0].boxes = filtered_boxes
         plot_image = results[0].plot()  # This draws all filtered boxes on the image
-        st.image(plot_image, caption='Detected Cracks and Potholes', use_column_width=True)
+        st.image(plot_image, caption='Detected Cracks and Potholes', use_container_width=True)
     else:
         st.success("No pothole or crack detected in the image.")
